@@ -9,5 +9,5 @@ This repository contains binaries for event-collector's boh-check process intend
 - Copy the internally shared eventhub credentials in `.local.env`.
 - Run the application as:
 
-    ```./ec_part2_arm64 assortment-status```
+    ```./ec_part2_amd64 assortment-status```
 
