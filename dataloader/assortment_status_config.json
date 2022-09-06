@@ -13,22 +13,20 @@
     {
       "id": 5,
       "type" : "subData",
-      "subDataKey": "offset",
-      "needs": 4
-    },
-    {
-      "id": 7,
-      "type" : "subData",
       "subDataKey": "assortmentItems",
-      "needs": 6
+      "needs": 4
     }
   ],
   "output": [
     {
-      "needs": 8,
+      "needs": 6,
       "type": "EVENTHUB",
       "schema": {
-        "data": "data",
+        "gtin": "gtin",
+        "dltID": "dltID",
+        "stockPositionDateTime": "stockPositionDateTime",
+        "skuQuantity": "skuQuantity",
+        "skuUnitOfMeasure": "skuUnitOfMeasure",
         "eventHeader": "eventHeader"
       }
     }
