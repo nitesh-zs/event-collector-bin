@@ -1,0 +1,34 @@
+{
+  "input": {
+    "type": "JSON",
+    "source": "dataloader/start.json"
+  },
+  "layers": [
+    {
+      "id": 3,
+      "type" : "subData",
+      "subDataKey": "catalogData",
+      "needs": 2
+    },
+    {
+      "id": 5,
+      "type" : "subData",
+      "subDataKey": "assortmentItems",
+      "needs": 4
+    }
+  ],
+  "output": [
+    {
+      "needs": 6,
+      "type": "EVENTHUB",
+      "schema": {
+        "gtin": "gtin",
+        "dltID": "dltID",
+        "stockPositionDateTime": "stockPositionDateTime",
+        "skuQuantity": "skuQuantity",
+        "skuUnitOfMeasure": "skuUnitOfMeasure",
+        "eventHeader": "eventHeader"
+      }
+    }
+  ]
+}

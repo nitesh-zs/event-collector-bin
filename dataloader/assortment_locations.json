@@ -1,0 +1,50 @@
+[
+  {
+    "locationId": "1",
+    "locationDescription": "Atlanta",
+    "assortmentId": "1",
+    "assortmentName": "D011 Atlanta Assort"
+  },
+  {
+    "locationId": "2",
+    "locationDescription": "Dallas",
+    "assortmentId": "2",
+    "assortmentName": "D035 Dallas Assort"
+  },
+  {
+    "locationId": "3",
+    "locationDescription": "Detroit",
+    "assortmentId": "3",
+    "assortmentName": "Detroit Assort"
+  },
+  {
+    "locationId": "4",
+    "locationDescription": "Frederick",
+    "assortmentId": "4",
+    "assortmentName": "Frederick Assort"
+  },
+  {
+    "locationId": "5",
+    "locationDescription": "Groveland",
+    "assortmentId": "5",
+    "assortmentName": "D011 Groveland Assort"
+  },
+  {
+    "locationId": "6",
+    "locationDescription": "Monroe",
+    "assortmentId": "6",
+    "assortmentName": "D014 Monroe Assort"
+  },
+  {
+    "locationId": "7",
+    "locationDescription": "Phoenix",
+    "assortmentId": "7",
+    "assortmentName": "Phoenix Assort"
+  },
+  {
+    "locationId": "8",
+    "locationDescription": "Pleasant Prairie",
+    "assortmentId": "8",
+    "assortmentName": "Pleasant Prairie Assort"
+  }
+]
